@@ -12,6 +12,7 @@ public class CoolTest {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Mahfuj Tuhin\\eclipse-workspace\\COOL\\drivers\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.facebook.com/");
+		driver.manage().window().maximize();
 	}
 
 }
