@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="cool.CoolTest">
+      <class name="cool.CopyfromGIT">
         <methods>
-          <include name="openBrowser"/>
+          <include name="signupFacebook"/>
         </methods>
-      </class> <!-- cool.CoolTest -->
+      </class> <!-- cool.CopyfromGIT -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
